@@ -1,0 +1,13 @@
+{
+  "name": "needmatch",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "dev": "node scripts/dev.mjs",
+    "build": "npm --prefix frontend run build"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  }
+}
